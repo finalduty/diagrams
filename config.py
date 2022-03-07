@@ -12,7 +12,7 @@ DIR_RESOURCE = "resources"
 DIR_TEMPLATE = "templates"
 
 PROVIDERS = (
-    "base", "onprem", "aws", "azure", "digitalocean", "gcp", "ibm", "firebase", "k8s", "alibabacloud", "oci",
+    "base", "cisco", "onprem", "aws", "azure", "digitalocean", "gcp", "ibm", "firebase", "k8s", "alibabacloud", "oci",
     "programming", "saas", "elastic", "generic", "openstack", "outscale")
 
 #########################
@@ -43,6 +43,7 @@ FILE_PREFIXES = {
     "outscale": (),
     "generic": (),
     "openstack": (),
+    "cisco": (),
 }
 
 #########################
@@ -448,4 +449,5 @@ ALIASES = {
             "Tripleo": "TripleO",
         }
     },
+    "cisco": {},
 }
