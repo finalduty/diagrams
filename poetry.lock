@@ -311,11 +311,14 @@ python-versions = ">=3.6"
 
 [[package]]
 name = "rope"
-version = "0.14.0"
+version = "1.1.0"
 description = "a python refactoring library..."
 category = "dev"
 optional = false
-python-versions = "*"
+python-versions = ">=3"
+
+[package.extras]
+dev = ["build", "pytest", "pytest-timeout"]
 
 [[package]]
 name = "toml"
@@ -364,7 +367,7 @@ testing = ["pytest (>=4.6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytes
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.6"
-content-hash = "97ad2fbb808bd5bc77925987a729514d08127024752bc41557762f758f29b067"
+content-hash = "bfd53916ed5e06f44c860ff4b8225018229af88dd37f2765ef59b23a21cf6903"
 
 [metadata.files]
 appdirs = [
@@ -670,9 +673,8 @@ regex = [
     {file = "regex-2022.3.2.tar.gz", hash = "sha256:79e5af1ff258bc0fe0bdd6f69bc4ae33935a898e3cbefbbccf22e88a27fa053b"},
 ]
 rope = [
-    {file = "rope-0.14.0-py2-none-any.whl", hash = "sha256:6b728fdc3e98a83446c27a91fc5d56808a004f8beab7a31ab1d7224cecc7d969"},
-    {file = "rope-0.14.0-py3-none-any.whl", hash = "sha256:f0dcf719b63200d492b85535ebe5ea9b29e0d0b8aebeb87fe03fc1a65924fdaf"},
-    {file = "rope-0.14.0.tar.gz", hash = "sha256:c5c5a6a87f7b1a2095fb311135e2a3d1f194f5ecb96900fdd0a9100881f48aaf"},
+    {file = "rope-1.1.0-py3-none-any.whl", hash = "sha256:2f24190da86556dadab58ab2d5629d8410803cc3985ef9dbbf559d15e72d6607"},
+    {file = "rope-1.1.0.tar.gz", hash = "sha256:09aeb99b8932661a40cd3a0a9d2245271fa7a565806d45271aa79eebd69b5626"},
 ]
 toml = [
     {file = "toml-0.10.2-py2.py3-none-any.whl", hash = "sha256:806143ae5bfb6a3c6e736a764057db0e6a0e05e338b5630894a5f779cabb4f9b"},
